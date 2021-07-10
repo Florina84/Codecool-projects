@@ -1,0 +1,81 @@
+body {
+    background-image: url("Images/newback.jfif");
+    background-repeat: repeat;
+    background-position: center;
+    background-size: auto;
+}
+
+.registration-form {
+    text-align: center;
+
+}   
+.registration-form section {
+    margin-top: 100px;
+    padding: 40px;
+    display: inline-block;
+    background-color: cadetblue;
+    box-shadow: 10px 10px 8px teal;
+}
+.registration-form form {
+    display:inline;
+    color: white;
+    font-size: 20px;
+}
+
+.topbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border: 2px solid chocolate;
+    background-color: cadetblue;
+}    
+.topbar a {
+    text-decoration: none;
+    display: inline-block;
+    background-color: cadetblue;
+    padding: 20px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+}
+.topbar a:hover {
+    background-color: white;
+    color: black;
+}
+html, body {
+    margin: 0px;
+    padding:0px;
+}    
+.registration-form form label {
+    width: 150px;
+    display: inline-block;
+}
+section-form .img {
+background-image: url("Images/profileicon.png");
+background-repeat: no-repeat;
+width: 10px;
+
+}
+
+.main-footer-links {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: center;
+    background-color: cadetblue;
+}
+.main-footer-links li{
+    padding-left: 10px;
+}
+.main-footer-links li a{
+    text-decoration: none;
+    color: rgb(75, 67, 67);
+}
+
+footer {
+    background-color: cadetblue;
+    padding: 2px;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+}

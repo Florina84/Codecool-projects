@@ -1,0 +1,58 @@
+body {
+    background-image: url("Images/newback.jfif");
+    background-repeat: repeat;
+    background-position: center;
+    background-size: auto;
+}
+
+.posts-form {
+    text-align: center;
+
+}   
+.posts-form section {
+    width: 300px;
+    margin-top: 100px;
+    padding: 40px;
+    display: inline-block;
+    background-color: cadetblue;
+    box-shadow: 10px 10px 8px teal;
+}
+.posts-form form {
+    display:inline;
+    color: white;
+    font-size: 20px;
+}
+
+.topbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border: 2px solid chocolate;
+    background-color: cadetblue;
+}    
+.topbar a {
+    text-decoration: none;
+    display: inline-block;
+    background-color: cadetblue;
+    padding: 20px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+}
+.topbar a:hover {
+    background-color: white;
+    color: black;
+}
+html, body {
+    margin: 0px;
+    padding:0px;
+}    
+.posts-form form label {
+    width: 150px;
+    display: inline-block;
+}    
+posts-form .edit-buttom {
+    width: 10px;
+    display: center
+
+}

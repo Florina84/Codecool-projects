@@ -1,0 +1,129 @@
+
+.topbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    background-color: cadetblue;
+}    
+.topbar a {
+    text-decoration: none;
+    display: inline-block;
+    background-color: cadetblue;
+    padding: 20px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+}
+.topbar a:hover {
+    background-color: white;
+    color: black;
+}
+html, body {
+    margin: 0px;
+    padding:0px;
+}
+article {
+    padding: 10px;
+    margin: 10px;
+    background: rgb(233, 226, 226);
+}
+.posts h2 {
+    color:  #ef956b;
+}
+
+footer {
+    background-color: cadetblue;
+    padding: 2px;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+}
+
+ body {
+     background-image: url("Images/newback.jfif");
+     background-repeat: repeat;
+     background-position: center;
+     background-size: auto;
+ }
+.container  {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    min-height: 100%;
+    justify-content: center;
+}
+.container .posts .article-image{
+    width: 70%;
+    margin-left: 15%;
+}
+.container .posts {
+    width: 65%;
+    text-align: justify;
+}
+.container .posts .userdata {
+    color: #85895f;
+    font-size: 14px;
+}
+.container .links{
+    width: 20%;
+}
+.container .links ul {
+    list-style: none;
+}
+.container .links .profile-link{
+    background-image: url("Images/profileicon.png");
+    background-repeat: no-repeat;
+    padding-left: 50px;
+    padding-top: 8px;
+    height: 41px;
+    display: block;
+}
+
+.container .links .posts-link{
+    background-image: url("Images/postsicon.png");
+    background-repeat: no-repeat;
+    padding-left: 50px;
+    padding-top: 8px;
+    height: 41px;
+    display: block;
+}
+.main-footer-links {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: center;
+    background-color: cadetblue;
+}
+.main-footer-links li{
+    padding-left: 10px;
+}
+.main-footer-links li a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+}
+ul a {
+    text-decoration: none;
+    
+}
+.drop-cap {
+        display: block;
+        float: left;
+        font-family: 'Cormorant Garamond', sans-serif;
+        font-size: 48px;
+        line-height: .85em;
+        color: #000;
+        padding-right: .2em;
+}
+.last-article{
+    margin-bottom: 70px;
+}
+.container .links ul li a {
+    color: black;
+    font-size: 18px;
+    margin: 20px;
+    padding: 20px;
+    font-weight: bold;
+
+}
